@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Castellated pins")(type "KiCad")(uri "${KIPRJMOD}/Components/Castellated pins/Castellated pins.pretty")(options "")(descr ""))
+)
