@@ -780,249 +780,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -3024,6 +2781,196 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WAGO 2060:WAGO 2060-3pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.794 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "WAGO 2060-3pin"
+				(at 2.794 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "WAGO connectors:WAGO 2060-453"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.wago.com/2060-453/998-404"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD PCB terminal block; push-button; 0.75 mm; Pin spacing 4 mm; 3-pole; Push-in CAGE CLAMP; in tape-and-reel packaging"
+				(at 0.762 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.5"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wago"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2060-453/998-404"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "2060-453/998-404"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2060-453998-404/wago-kontakttechnik-gmbh?region=europe"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "WAGO 2060-3pin_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5159,7 +5106,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 208.28 73.66 90)
+		(at 209.55 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5167,7 +5114,7 @@
 		(dnp no)
 		(uuid "16cedea5-ddd9-419d-9d43-322373899646")
 		(property "Reference" "#PWR020"
-			(at 212.09 73.66 0)
+			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5123,7 @@
 			)
 		)
 		(property "Value" "+3.3V-1"
-			(at 205.232 73.66 90)
+			(at 206.502 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 73.66 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 73.66 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 73.66 0)
+			(at 209.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,8 +5405,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 186.69 52.07 0)
+		(lib_id "WAGO 2060:WAGO 2060-3pin")
+		(at 179.07 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5468,7 +5415,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dc805d3-47c0-4d5a-acaf-2b89c59fabd4")
 		(property "Reference" "JT1"
-			(at 189.23 50.7999 0)
+			(at 187.96 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5424,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 189.23 53.3399 0)
+			(at 187.96 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,25 +5433,27 @@
 			)
 		)
 		(property "Footprint" "WAGO connectors:WAGO 2060-453"
-			(at 186.69 52.07 0)
+			(at 200.66 144.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 52.07 0)
+		(property "Datasheet" "https://www.wago.com/2060-453/998-404"
+			(at 200.66 244.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 52.07 0)
+		(property "Description" "SMD PCB terminal block; push-button; 0.75 mm; Pin spacing 4 mm; 3-pole; Push-in CAGE CLAMP; in tape-and-reel packaging"
+			(at 179.832 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,11 +5462,81 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 186.69 52.07 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.5"
+			(at 200.66 444.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wago"
+			(at 200.66 544.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2060-453/998-404"
+			(at 200.66 644.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 200.66 744.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 200.66 844.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2060-453/998-404"
+			(at 200.66 944.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2060-453998-404/wago-kontakttechnik-gmbh?region=europe"
+			(at 200.66 1044.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -5877,7 +5896,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 186.69 76.2 90)
+		(at 185.42 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5885,7 +5904,7 @@
 		(dnp no)
 		(uuid "2d77c298-cf84-47a9-89b7-c48f97b8ab19")
 		(property "Reference" "#PWR025"
-			(at 190.5 76.2 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5913,7 @@
 			)
 		)
 		(property "Value" "+3.3V-2"
-			(at 183.642 76.2 90)
+			(at 182.372 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 76.2 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "74LV4060D,118:74LV4060D118"
+		(property "Footprint" ""
 			(at 92.71 143.51 0)
 			(effects
 				(font
@@ -6199,7 +6218,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 208.28 78.74 90)
+		(at 209.55 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6207,7 +6226,7 @@
 		(dnp no)
 		(uuid "3acb02fd-3dc1-493f-ad6d-4121696c2baa")
 		(property "Reference" "#PWR030"
-			(at 212.09 78.74 0)
+			(at 213.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6235,7 @@
 			)
 		)
 		(property "Value" "+3.3V-3"
-			(at 205.232 78.74 90)
+			(at 206.502 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 78.74 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 78.74 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 78.74 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,8 +6349,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 191.77 76.2 0)
+		(lib_id "WAGO 2060:WAGO 2060-3pin")
+		(at 182.88 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6339,7 +6358,7 @@
 		(dnp no)
 		(uuid "3f9eb38e-a57a-49d5-871b-67ff6dbc4935")
 		(property "Reference" "JT2"
-			(at 186.436 80.518 0)
+			(at 192.278 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6367,7 @@
 			)
 		)
 		(property "Value" "+3.3v"
-			(at 184.912 82.804 0)
+			(at 190.754 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6376,27 @@
 			)
 		)
 		(property "Footprint" "WAGO connectors:WAGO 2060-453"
-			(at 191.77 76.2 0)
+			(at 204.47 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2060-453/998-404"
+			(at 204.47 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; push-button; 0.75 mm; Pin spacing 4 mm; 3-pole; Push-in CAGE CLAMP; in tape-and-reel packaging"
+			(at 183.642 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,21 +6404,73 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 76.2 0)
+		(property "Height" "4.5"
+			(at 204.47 468.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 76.2 0)
+		(property "Manufacturer_Name" "Wago"
+			(at 204.47 568.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2060-453/998-404"
+			(at 204.47 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 204.47 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 204.47 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2060-453/998-404"
+			(at 204.47 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2060-453998-404/wago-kontakttechnik-gmbh?region=europe"
+			(at 204.47 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -6865,7 +6956,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 186.69 78.74 90)
+		(at 185.42 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6873,7 +6964,7 @@
 		(dnp no)
 		(uuid "4fd0a5b7-dbca-40ad-b5e4-8a1581ffa8df")
 		(property "Reference" "#PWR029"
-			(at 190.5 78.74 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6973,7 @@
 			)
 		)
 		(property "Value" "+3.3V-3"
-			(at 183.642 78.74 90)
+			(at 182.372 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +6982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 78.74 0)
+			(at 185.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +6991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 78.74 0)
+			(at 185.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +7000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 78.74 0)
+			(at 185.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,8 +8217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 186.69 101.6 0)
+		(lib_id "WAGO 2060:WAGO 2060-3pin")
+		(at 179.07 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8136,7 +8227,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba4a548-3da7-4092-8a35-876983813255")
 		(property "Reference" "JT3"
-			(at 189.23 100.3299 0)
+			(at 187.96 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +8236,7 @@
 			)
 		)
 		(property "Value" "System"
-			(at 189.23 102.8699 0)
+			(at 187.96 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8245,27 @@
 			)
 		)
 		(property "Footprint" "WAGO connectors:WAGO 2060-453"
-			(at 186.69 101.6 0)
+			(at 200.66 193.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wago.com/2060-453/998-404"
+			(at 200.66 293.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; push-button; 0.75 mm; Pin spacing 4 mm; 3-pole; Push-in CAGE CLAMP; in tape-and-reel packaging"
+			(at 179.832 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,21 +8273,73 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 101.6 0)
+		(property "Height" "4.5"
+			(at 200.66 493.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 101.6 0)
+		(property "Manufacturer_Name" "Wago"
+			(at 200.66 593.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2060-453/998-404"
+			(at 200.66 693.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 200.66 793.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 200.66 893.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "2060-453/998-404"
+			(at 200.66 993.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2060-453998-404/wago-kontakttechnik-gmbh?region=europe"
+			(at 200.66 1093.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -8559,7 +8722,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 208.28 76.2 90)
+		(at 209.55 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8567,7 +8730,7 @@
 		(dnp no)
 		(uuid "883e8b48-ad6f-473f-8e28-df8785f33b8d")
 		(property "Reference" "#PWR026"
-			(at 212.09 76.2 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8739,7 @@
 			)
 		)
 		(property "Value" "+3.3V-2"
-			(at 205.232 76.2 90)
+			(at 206.502 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,7 +8757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 76.2 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +10050,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 186.69 73.66 90)
+		(at 185.42 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9895,7 +10058,7 @@
 		(dnp no)
 		(uuid "d48081d1-4657-4271-8933-0b5527b9a226")
 		(property "Reference" "#PWR019"
-			(at 190.5 73.66 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +10067,7 @@
 			)
 		)
 		(property "Value" "+3.3V-1"
-			(at 183.642 73.66 90)
+			(at 182.372 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +10076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +10085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +10094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11161,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 213.36 76.2 0)
+		(at 214.63 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11007,7 +11170,7 @@
 		(dnp no)
 		(uuid "fe736a31-3e4f-4842-9ddb-67c51a28d07e")
 		(property "Reference" "JC2"
-			(at 210.058 80.518 0)
+			(at 211.328 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11178,7 @@
 			)
 		)
 		(property "Value" "+3.3v"
-			(at 210.058 82.804 0)
+			(at 211.328 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11186,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 213.36 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11204,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 213.36 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
