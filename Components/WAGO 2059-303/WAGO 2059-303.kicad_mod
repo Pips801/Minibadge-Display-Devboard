@@ -323,15 +323,15 @@
 		(uuid "7b0ac99b-ce62-46d2-8db9-dbed973a1120")
 	)
 	(embedded_fonts no)
-	(model "2059-303_998-403.stp"
+	(model "${KIPRJMOD}/Components/WAGO 2059-303/2059-303_998-403.stp"
 		(offset
-			(xyz -3.930000008 -4.449999742 0.04999999999)
+			(xyz -3.5 -4.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -180)
+			(xyz -90 -0 -180)
 		)
 	)
 )
