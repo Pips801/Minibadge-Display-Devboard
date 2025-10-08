@@ -30,11 +30,18 @@ A small PCB that allows you to create your own Minibadge displays!
 * Import the Devboard symbol and wire up CLK, GND, and SYS (VBATT/5V).
 * Wire up the minibadges 3.3v lines to evenly distribute the 3.3v load across the regulators.
 
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/5cee3f1c-dd95-44ab-9998-e44554d591dc" />
+
+
 ### PCB
 * Arrange all of your minibadges.
 * Finalize your board shape.
 * Place the Devboard on the back of the PCB with the USB port against the edge of your board.
 * Wire up your CLK, GND, 3x 3.3v, and SYS (VBATT/5V)
+
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/203cdfca-c7ca-4586-b22b-4565289f8a69" /> <img height="400" alt="image" src="https://github.com/user-attachments/assets/22d00681-0fd2-455b-b95d-9b6c29cf2159" />
+
+
 
 # Assembly
 1. Solder the `SPEED` jumper to select the Clock frequency. F for Fast, S for Slow.
