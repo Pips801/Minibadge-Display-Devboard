@@ -1,6 +1,7 @@
 # Minibadge Devboard
 A small PCB that allows you to create your own Minibadge displays!
-<img height="400" alt="image" src="https://github.com/user-attachments/assets/c6deb0ff-0d1e-41c5-94de-63858753c2ca" /> <img height="400" alt="image" src="https://github.com/user-attachments/assets/c4474a9e-028e-46b3-9f72-89c954e33307" />
+
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/ab08be7f-1882-463b-b7bd-d60ec6992621" /> <img height="400" alt="image" src="https://github.com/user-attachments/assets/c4474a9e-028e-46b3-9f72-89c954e33307" />
 
 # Specifications
 * Provides your Minibadges battery or USB-C power, 3x 3.3v@1A, CLK, GND, and VBATT.
