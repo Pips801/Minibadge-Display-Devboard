@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|183730000|142240000|8cab0f9c-afcf-437f-b16c-fed7fd6409e3|3463500c-7988-41a0-b6a9-8c52c1b7029c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|191350000|142240000|8cab0f9c-afcf-437f-b16c-fed7fd6409e3|d48636a6-dea7-4cdf-b738-8097b0380ebb",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -521,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Minibadge Devboard.step",
       "svg": "",
       "vrml": ""
     },
