@@ -5700,9 +5700,9 @@
 		(at 147.32 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "012afe06-aa1a-471e-9d3f-d367ca287d02")
 		(property "Reference" "J2"
 			(at 146.05 148.082 90)
@@ -5855,7 +5855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 134.62 52.07 90)
 			(effects
 				(font
@@ -5892,6 +5892,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 134.62 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2286"
 			(at 134.62 52.07 90)
 			(effects
 				(font
@@ -6102,7 +6111,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3743528 "
+		(property "LCSC Part #" "C3743528"
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -6651,7 +6660,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "26c017dc-6fce-4e0a-9ed4-8f416451e250")
 		(property "Reference" "JC1"
 			(at 196.85 36.83 0)
@@ -6719,9 +6728,9 @@
 		(at 130.81 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29065b56-a8b8-4387-90eb-aea3b74b22f2")
 		(property "Reference" "J1"
 			(at 129.286 148.082 90)
@@ -7879,6 +7888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C382787"
+			(at 147.32 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc0d2dfc-6fbd-4bf5-a738-0702be873717")
 		)
@@ -8053,6 +8071,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C347478"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8676fa6-fbd1-41bc-851e-c706b0376bd2")
 		)
@@ -8193,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3743528 "
+		(property "LCSC Part #" "C3743528"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -9948,7 +9975,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7d2384ff-67bb-4b55-a476-bd63387809a9")
 		(property "Reference" "JC3"
 			(at 199.136 83.312 0)
@@ -10705,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3743528 "
+		(property "LCSC Part #" "C3743528"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -11607,7 +11634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3743528 "
+		(property "LCSC Part #" "C283540"
 			(at 71.12 43.18 0)
 			(effects
 				(font
@@ -11769,6 +11796,15 @@
 		)
 		(property "Description" "Schottky diode, small symbol"
 			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C382787"
+			(at 147.32 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,7 +12702,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe736a31-3e4f-4842-9ddb-67c51a28d07e")
 		(property "Reference" "JC2"
 			(at 197.358 64.008 0)
