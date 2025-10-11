@@ -442,4 +442,15 @@
 		(uuid "241f19a5-8ab3-44d9-92a2-638612c00fd2")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprint/Minibadge Devboard.step"
+		(offset
+			(xyz -180.3 120.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
