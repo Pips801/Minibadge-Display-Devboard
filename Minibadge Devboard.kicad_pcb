@@ -19129,7 +19129,7 @@
 			)
 		)
 	)
-	(gr_text "GND"
+	(gr_text "SYS"
 		(at 167.005 140.335 0)
 		(layer "F.SilkS" knockout)
 		(uuid "da263efc-bb43-4df8-8765-8ba4144b5318")
@@ -19290,7 +19290,7 @@
 			)
 		)
 	)
-	(gr_text "SYS"
+	(gr_text "GND"
 		(at 173.355 140.335 0)
 		(layer "F.SilkS" knockout)
 		(uuid "f7d4ff35-d62f-4489-b308-e43377657dca")

@@ -285,6 +285,30 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "3v2"
+		(at 0 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "1217ce80-13eb-4a6a-9a96-107ed3dba63f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "NTC"
+		(at 10.16 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "22d410df-63fa-44d9-b8ac-80069a9ecf41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
 	(fp_text user "USB-C"
 		(at 0 -24.13 0)
 		(unlocked yes)
@@ -299,6 +323,78 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "GND"
+		(at -6.985 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "387fc9b1-4491-44ad-8f29-b30c48e50635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "B+"
+		(at 13.335 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "42804919-8ea5-471c-a7f2-59f06564224a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "CLK"
+		(at -10.16 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "8bf04cd6-a38c-4c08-80bc-bd3c8969f851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "3v1"
+		(at -3.175 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b939b73a-25ca-433c-90a3-98117d345135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "3v3"
+		(at 3.175 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "ba27153a-24af-4c78-aff6-cff09a94b79f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "SYS"
+		(at -13.335 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "d900c2a1-63ab-48cc-ab25-97294c2f6d82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
 	(fp_text user "CHARGE"
 		(at 10.16 -24.13 0)
 		(unlocked yes)
@@ -311,6 +407,18 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(fp_text user "B-"
+		(at 6.985 19.05 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "ee7708a9-0aec-47c0-b020-beff8f8f2c97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
 		)
 	)
 	(fp_text user "${REFERENCE}"
