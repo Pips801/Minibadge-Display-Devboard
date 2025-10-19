@@ -66,10 +66,6 @@
         [
           "courtyards_overlap|185055000|128715000|2f2c8572-214e-411c-b47b-25cdf08e2db7|f8a7108d-8078-49cf-ab7f-aa313d7c2322",
           ""
-        ],
-        [
-          "starved_thermal|178016000|106000000|e8c5e7bd-6be1-4d05-931c-a30c60ff3ffb|45310254-960c-4f06-bbaa-1658e95d0690|F.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -115,7 +111,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -131,7 +127,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
