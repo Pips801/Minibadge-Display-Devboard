@@ -7617,7 +7617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "376eb19a-674a-4b58-8427-f9d1d92b9cdc")
-		(property "Reference" "U2"
+		(property "Reference" "CLK1"
 			(at 67.818 136.398 0)
 			(effects
 				(font
@@ -7722,7 +7722,7 @@
 		(instances
 			(project ""
 				(path "/5e8d5e65-6836-49cf-87c9-8c3c5b8fcf7b"
-					(reference "U2")
+					(reference "CLK1")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42ad0662-57e7-4566-8b5e-7abe5b30c6d7")
-		(property "Reference" "U1"
+		(property "Reference" "DRV1"
 			(at 140.716 107.696 0)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 		(instances
 			(project ""
 				(path "/5e8d5e65-6836-49cf-87c9-8c3c5b8fcf7b"
-					(reference "U1")
+					(reference "DRV1")
 					(unit 1)
 				)
 			)
@@ -8340,7 +8340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49b83cad-0987-48f7-9e0b-087b2f682ab5")
-		(property "Reference" "Q1"
+		(property "Reference" "PMOS1"
 			(at 165.1 110.4899 0)
 			(effects
 				(font
@@ -8433,7 +8433,7 @@
 		(instances
 			(project ""
 				(path "/5e8d5e65-6836-49cf-87c9-8c3c5b8fcf7b"
-					(reference "Q1")
+					(reference "PMOS1")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5011a295-0845-4104-b5bb-eb6b22f62091")
-		(property "Reference" "U3"
+		(property "Reference" "MUX1"
 			(at 223.52 27.94 0)
 			(effects
 				(font
@@ -8764,7 +8764,7 @@
 		(instances
 			(project ""
 				(path "/5e8d5e65-6836-49cf-87c9-8c3c5b8fcf7b"
-					(reference "U3")
+					(reference "MUX1")
 					(unit 1)
 				)
 			)
