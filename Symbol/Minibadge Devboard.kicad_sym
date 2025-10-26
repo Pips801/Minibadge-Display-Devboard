@@ -120,7 +120,7 @@
 			(pin power_out line
 				(at -2.54 5.08 270)
 				(length 2.54)
-				(name "3v1-3"
+				(name "3v3-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			(pin power_out line
 				(at 0 5.08 270)
 				(length 2.54)
-				(name "3v1-2"
+				(name "3v3-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			(pin power_out line
 				(at 2.54 5.08 270)
 				(length 2.54)
-				(name "3v1-1"
+				(name "3v3-1"
 					(effects
 						(font
 							(size 1.27 1.27)

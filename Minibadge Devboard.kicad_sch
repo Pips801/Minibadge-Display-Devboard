@@ -4547,8 +4547,8 @@
 	)
 	(text_box "External 5V and power switch"
 		(exclude_from_sim no)
-		(at 119.38 143.51 0)
-		(size 36.83 20.32)
+		(at 205.74 71.12 0)
+		(size 44.45 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4628,7 +4628,7 @@
 	(text_box "Power MUX 5V/Batt"
 		(exclude_from_sim no)
 		(at 205.74 22.86 0)
-		(size 45.72 45.72)
+		(size 44.45 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5687,7 +5687,7 @@
 	)
 	(global_label "SW1"
 		(shape input)
-		(at 147.32 156.21 270)
+		(at 237.49 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5697,7 +5697,7 @@
 		)
 		(uuid "6958baf4-41aa-444f-9538-7c67998a35c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 163.0656 90)
+			(at 237.49 93.2156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5885,7 @@
 	)
 	(global_label "SW2"
 		(shape output)
-		(at 144.78 156.21 270)
+		(at 234.95 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5895,7 +5895,7 @@
 		)
 		(uuid "c09ee125-4a1d-4e18-8360-a326f39dfadc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 164.1769 90)
+			(at 234.95 94.3269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5929,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 147.32 151.13 270)
+		(at 237.49 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5937,7 +5937,7 @@
 		(dnp yes)
 		(uuid "012afe06-aa1a-471e-9d3f-d367ca287d02")
 		(property "Reference" "J2"
-			(at 146.05 148.082 90)
+			(at 236.22 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5945,7 @@
 			)
 		)
 		(property "Value" "External switch"
-			(at 146.05 149.86 90)
+			(at 236.22 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" "Castellated pins:Castellated pins 1x02"
-			(at 147.32 151.13 0)
+			(at 237.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 151.13 0)
+			(at 237.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 147.32 151.13 0)
+			(at 237.49 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7193,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 130.81 151.13 270)
+		(at 220.98 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7201,7 +7201,7 @@
 		(dnp yes)
 		(uuid "29065b56-a8b8-4387-90eb-aea3b74b22f2")
 		(property "Reference" "J1"
-			(at 129.286 148.082 90)
+			(at 219.456 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7209,7 @@
 			)
 		)
 		(property "Value" "External power"
-			(at 129.286 149.86 90)
+			(at 219.456 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7217,7 @@
 			)
 		)
 		(property "Footprint" "Castellated pins:Castellated pins 1x02"
-			(at 130.81 151.13 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 151.13 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +7235,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 130.81 151.13 0)
+			(at 220.98 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 156.21 0)
+		(at 220.98 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7268,7 +7268,7 @@
 		(dnp no)
 		(uuid "2afdcd79-bce2-41e2-a14c-f6dc41058830")
 		(property "Reference" "#PWR049"
-			(at 130.81 162.56 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 160.274 0)
+			(at 222.25 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +7285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 156.21 0)
+			(at 220.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7294,7 +7294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 156.21 0)
+			(at 220.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 156.21 0)
+			(at 220.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7457,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 128.27 156.21 180)
+		(at 218.44 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7465,7 +7465,7 @@
 		(dnp no)
 		(uuid "308f087e-d6f3-462e-a478-291993ecf6e7")
 		(property "Reference" "#PWR048"
-			(at 128.27 152.4 0)
+			(at 218.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7474,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 126.492 160.274 0)
+			(at 216.662 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 156.21 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 156.21 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 128.27 156.21 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9341,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 237.49 35.56 270)
+		(at 237.49 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9349,7 +9349,7 @@
 		(dnp no)
 		(uuid "641771ec-c5a6-4267-ad70-ac7ec51a9813")
 		(property "Reference" "#FLG04"
-			(at 239.395 35.56 0)
+			(at 237.49 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9358,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 245.364 35.56 90)
+			(at 243.84 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
