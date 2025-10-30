@@ -9100,8 +9100,8 @@
 			(uuid "91357540-d827-4f6c-a6ba-1cd3d48e5789")
 		)
 		(pad "1" smd rect
-			(at -2 -1.325 180)
-			(size 0.8 1.5)
+			(at -2 -0.4025 180)
+			(size 0.8 3.345)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "SW1")
 			(pinfunction "A")
@@ -9109,8 +9109,8 @@
 			(uuid "135bd1f8-60cc-4134-9e39-65b2632d77c6")
 		)
 		(pad "2" smd rect
-			(at 0 -1.325 180)
-			(size 0.8 1.5)
+			(at 0 -0.4025 180)
+			(size 0.8 3.345)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "SW2")
 			(pinfunction "B")
@@ -9118,8 +9118,8 @@
 			(uuid "68bc0a09-b320-44a5-ac68-034bb15bd077")
 		)
 		(pad "3" smd rect
-			(at 2 -1.325 180)
-			(size 0.8 1.5)
+			(at 2 -0.4025 180)
+			(size 0.8 3.345)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "07d68eec-0007-4fa9-85b7-bcea1b2da93e")
 		)
@@ -20569,7 +20569,7 @@
 		(uuid "fd03f4e8-38b1-457b-8e5c-d6422a2af9a4")
 	)
 	(via
-		(at 191.16 109.7665)
+		(at 191.389 109.828826)
 		(size 0.6)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -20614,7 +20614,7 @@
 		(uuid "736bf36f-2031-4ec5-a515-6ae9fb1dad09")
 	)
 	(via
-		(at 191.135 110.744)
+		(at 191.364 110.806326)
 		(size 0.6)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -20632,7 +20632,7 @@
 		(uuid "87919a08-f664-4a44-bcb0-dad52739a527")
 	)
 	(via
-		(at 191.16 111.6715)
+		(at 191.389 111.733826)
 		(size 0.6)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
