@@ -8894,6 +8894,28 @@
 			(layer "F.SilkS")
 			(uuid "769e276d-1d21-4106-adca-2d0a3abd2646")
 		)
+		(fp_circle
+			(center 4.15 1.325)
+			(end 4.572 1.778)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "d86e97cd-52a4-499f-99a0-266b288e32e7")
+		)
+		(fp_circle
+			(center -4.15 1.325)
+			(end -3.530893 1.325)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "a86102cf-7b6d-47ae-92c2-de473274915f")
+		)
 		(fp_poly
 			(pts
 				(arc
