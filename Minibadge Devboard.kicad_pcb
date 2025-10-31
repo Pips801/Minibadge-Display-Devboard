@@ -1916,7 +1916,7 @@
 		(property "Reference" "USB1"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "5a3107a1-26f3-48ce-aae4-895b81eb410e")
+			(uuid "9665630e-b96a-41cd-bf70-120d92878f3a")
 			(effects
 				(font
 					(size 1 1)
@@ -1927,7 +1927,7 @@
 		(property "Value" "USB-C"
 			(at 0 4.75 0)
 			(layer "F.Fab")
-			(uuid "783acb7d-7e57-49c8-8b82-222b7bb81ebd")
+			(uuid "9fd64792-585b-4d82-af6f-7d738282d7a7")
 			(effects
 				(font
 					(size 1 1)
@@ -1940,7 +1940,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "079feb3b-ac7e-4eca-ab89-514cf43ab159")
+			(uuid "983a1dba-5713-415b-ba74-4ffcd422cb84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1953,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1990d7d7-f0b5-42c3-b856-33a442dca672")
+			(uuid "184bd21a-a73c-40f6-995e-6c2493eb496f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2198,7 @@
 			(size 1 1.7)
 			(drill oval 0.5 1.2)
 			(property pad_prop_heatsink)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(pinfunction "SHIELD")
@@ -2210,7 +2210,7 @@
 			(size 1 1.7)
 			(drill oval 0.5 1.2)
 			(property pad_prop_heatsink)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(pinfunction "SHIELD")
@@ -2222,7 +2222,7 @@
 			(size 1 1.7)
 			(drill oval 0.5 1.2)
 			(property pad_prop_heatsink)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(pinfunction "SHIELD")
@@ -2234,7 +2234,7 @@
 			(size 1 1.7)
 			(drill oval 0.5 1.2)
 			(property pad_prop_heatsink)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(pinfunction "SHIELD")
@@ -9127,7 +9127,7 @@
 			(at 4.15 1.325 180)
 			(size 1 1.8)
 			(drill oval 0.6 1.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(uuid "f16a87e3-2ec7-49f4-943b-a5ebaa4e1d4b")
@@ -9136,7 +9136,7 @@
 			(at -4.15 1.325 180)
 			(size 1 1.8)
 			(drill oval 0.6 1.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 19 "GND")
 			(uuid "47b14fd4-b70b-456d-888d-7fbe59a563a6")
