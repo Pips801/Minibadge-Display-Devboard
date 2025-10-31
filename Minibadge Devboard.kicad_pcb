@@ -8895,26 +8895,48 @@
 			(uuid "769e276d-1d21-4106-adca-2d0a3abd2646")
 		)
 		(fp_circle
-			(center 4.15 1.325)
-			(end 4.572 1.778)
+			(center 4.15 1.975)
+			(end 4.699 1.975)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "d86e97cd-52a4-499f-99a0-266b288e32e7")
+			(uuid "b389289b-139d-4b8d-96e8-7a468e2199bd")
 		)
 		(fp_circle
-			(center -4.15 1.325)
-			(end -3.530893 1.325)
+			(center 4.15 0.675)
+			(end 4.699 0.675)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "a86102cf-7b6d-47ae-92c2-de473274915f")
+			(uuid "43959dc9-e81d-4abf-ae62-0c34b12269de")
+		)
+		(fp_circle
+			(center -4.15 1.975)
+			(end -3.556 1.975)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "32fbbf8a-641a-473c-a0dc-c0973fcc22b3")
+		)
+		(fp_circle
+			(center -4.15 0.675)
+			(end -3.556 0.675)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "8129b7e8-041f-44f8-90dd-901d3884d746")
 		)
 		(fp_poly
 			(pts
