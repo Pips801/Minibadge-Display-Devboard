@@ -1182,7 +1182,7 @@
 			)
 		)
 		(property "Value" "+3.3v"
-			(at 0 4.04 0)
+			(at -0.0385 2.057 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "67a1cd70-484c-4b66-ac87-cfd628d4cca9")
@@ -1225,7 +1225,7 @@
 		(sheetfile "Minibadge Devboard.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.54 0)
+			(at -0.0385 3.557 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f25c086a-1a5f-4700-ae8c-15788a0606d6")
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 0 4.04 0)
+			(at -0.0385 2.057 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "72af76fa-201f-47b4-99a4-0a0b03eaa12b")
@@ -3769,7 +3769,7 @@
 		(sheetfile "Minibadge Devboard.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.54 0)
+			(at -0.0385 3.557 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "931ab63b-3f02-4e5d-966b-b894cb135c4b")
@@ -9238,7 +9238,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 0 7.402 180)
+			(at 0.0385 4.801 180)
 			(layer "F.Fab")
 			(uuid "79b54bc6-68a0-47ef-95e1-48dba96258fc")
 			(effects
@@ -9698,7 +9698,7 @@
 			)
 		)
 		(property "Value" "System"
-			(at 0 4.04 0)
+			(at -0.0385 2.057 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6d055a5e-c8a3-4634-acba-ac3b5b7963a7")
@@ -9741,7 +9741,7 @@
 		(sheetfile "Minibadge Devboard.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.54 0)
+			(at -0.0385 3.557 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b4c24a52-5e46-4309-b292-631afd1b0ec5")
@@ -9797,7 +9797,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "45e63c2f-779f-4717-be03-b76499720690")
+			(uuid "94cfcdf2-36c5-42e8-b520-af7e737c6a4b")
 			(effects
 				(font
 					(size 1 1)
@@ -9806,10 +9806,10 @@
 			)
 		)
 		(property "Value" "External power"
-			(at 0 4.04 90)
+			(at 0.102 1.9935 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2fb58d0b-6237-4d7f-8246-a621b423253b")
+			(uuid "7fe565f2-c67b-4e83-bd1c-19e05501b3e4")
 			(effects
 				(font
 					(size 1 1)
@@ -9822,7 +9822,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d385a5a-b317-49ff-8ce0-4fa8e6a08813")
+			(uuid "fb26e38e-7b2c-4d37-bd61-2b0f9c068e78")
 			(effects
 				(font
 					(size 1 1)
@@ -9835,7 +9835,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4c22b2b-0b14-40c1-8b57-6764dbfc76c8")
+			(uuid "3440a3d6-c762-4712-ab9f-c476216584d5")
 			(effects
 				(font
 					(size 1 1)
@@ -10780,7 +10780,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b76ed190-48bd-4b3c-8c9f-156abb31d55e")
+			(uuid "f5dd1c24-8fb7-4a11-8f9b-fe9c73999328")
 			(effects
 				(font
 					(size 1 1)
@@ -10789,10 +10789,10 @@
 			)
 		)
 		(property "Value" "External switch"
-			(at 0 4.04 90)
+			(at 0.1195 -1.6895 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e3ddbba8-cbc0-4d7a-bb8a-f18269cedbbb")
+			(uuid "f4a31263-6b59-4347-a1dc-0d7058c43654")
 			(effects
 				(font
 					(size 1 1)
@@ -10805,7 +10805,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9611d3b8-db60-4085-ae40-80d05a4d8a93")
+			(uuid "bd3bb0de-7c46-4d81-b69d-bce985ec6fcc")
 			(effects
 				(font
 					(size 1 1)
@@ -10818,7 +10818,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f1a3bd8-de65-40e3-b20b-bf43b8f97f2f")
+			(uuid "da459758-0631-4138-8b59-2408ea2bd90e")
 			(effects
 				(font
 					(size 1 1)
@@ -10831,18 +10831,6 @@
 		(sheetname "/")
 		(sheetfile "Minibadge Devboard.kicad_sch")
 		(attr smd exclude_from_bom dnp)
-		(fp_text user "${REFERENCE}"
-			(at 0 5.54 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "11adf0cc-45df-4ec9-bcf6-a647c87d5126")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.7 1.7)
