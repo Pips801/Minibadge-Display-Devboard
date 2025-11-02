@@ -19755,7 +19755,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.2)
+				(thickness 0.22)
 			)
 			(justify left bottom)
 		)
