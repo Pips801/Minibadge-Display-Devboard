@@ -4,4 +4,6 @@
   (lib (name "SK12D07VG3-T")(type "KiCad")(uri "${KIPRJMOD}/Components/SK12D07VG3-T/SK12D07VG3-Tpretty.pretty")(options "")(descr ""))
   (lib (name "HX MST22D18G2")(type "KiCad")(uri "${KIPRJMOD}/Components/HX MST22D18G2/HX MST22D18G2.pretty")(options "")(descr ""))
   (lib (name "XDMK-12C01-25")(type "KiCad")(uri "${KIPRJMOD}/Components/XDMK-12C01-25/XDMK-12C01-25.pretty")(options "")(descr ""))
+  (lib (name "WAGO 2059-303")(type "KiCad")(uri "${KIPRJMOD}/Components/WAGO 2059-303")(options "")(descr ""))
+  (lib (name "WAGO 2060-453")(type "KiCad")(uri "${KIPRJMOD}/Components/WAGO 2060-453")(options "")(descr ""))
 )
