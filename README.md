@@ -1,4 +1,4 @@
-# Minibadge Devboard
+# Minibadge Display Devboard
 A small PCB that allows you to create your own Minibadge displays!
 
 <img height="500" alt="image" src="https://github.com/user-attachments/assets/ab08be7f-1882-463b-b7bd-d60ec6992621" /> <img height="500" alt="image" src="https://github.com/user-attachments/assets/c4474a9e-028e-46b3-9f72-89c954e33307" />
