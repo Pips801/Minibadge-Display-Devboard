@@ -1,7 +1,9 @@
 # Minibadge Display Devboard
 A small PCB that allows you to create your own Minibadge displays!
 
-<img height="500" alt="image" src="https://github.com/user-attachments/assets/ab08be7f-1882-463b-b7bd-d60ec6992621" /> <img height="500" alt="image" src="https://github.com/user-attachments/assets/c4474a9e-028e-46b3-9f72-89c954e33307" />
+This board provides everything your custom Minibadge display will need, including LiPo battery charging/use and USB-C power. It can be attached board-to-board with your own PCB designs, or it can be wired up using push-in WAGO wire terminals to your existing displays.
+
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/1c8e9991-1674-4dec-916b-945449384d05" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/d3120153-20b2-4f65-b784-882e05701e09" />
 
 # Specifications
 * Provides your Minibadges battery or USB-C power, 3x 3.3v@1A, CLK, GND, and VBATT.
@@ -21,6 +23,16 @@ A small PCB that allows you to create your own Minibadge displays!
 * Max total minibadges (estimated): 30-40
 * CLK is powered by VREG1.
  * If you plan on having a lot of CLK current, do not connect minibadges 3.3v rail to 3.3v-1. Only connect them to 3.3v-2 and 3.3v-3.
+
+R2 Update list
+* Better thermal management for voltage regulators under load.
+* Updated PMIC ORing power path chip, replacing dual ORing diodes.
+* Updated PFET for power on/off switching and system load capacity.
+* Better thermal management for PFET under load.
+* Improved current flow and reduced waste heat for CLK driver.
+* Thicker power traces for 3.3v regulators and Battery.
+* Updated silkscreen component markers.
+* Updated solder paste for stronger on/off switch mounting.
 
 # Designing a Minibadge display
 ### Setup
@@ -49,35 +61,3 @@ A small PCB that allows you to create your own Minibadge displays!
 4. If your battery does not have an NTC temperature wire, solder the `NTC` jumper to the `N` (No NTC) position.
 5. Solder or wire up your 3 different 3.3v lines from your display board.
 6. Solder or wire up GND, SYS (VBATT/5V), and CLK to the appropriate connections on your display.
-
-# Cost breakdown
-
-### BOM
-| Vendor          | Item                   | Item total | Item quantity | Per item cost | Per unit cost | Per unit required |
-| --------------- | ---------------------- | ---------- | ------------- | ------------- | ------------- | ----------------- |
-| JLC PCB         | Board                  | $11.00     | 50            | $0.22         | $0.22         | 1                 |
-| JLC PCB         | Engineering fee        | $8.00      | 50            | $0.16         | $0.16         | 1                 |
-| JLC PCB         | Film                   | $1.30      | 50            | $0.03         | $0.03         | 1                 |
-| JLC PCB         | Castellated holes      | $49.90     | 50            | $1.00         | $1.00         | 1                 |
-| JLC PCB         | Confirm                | $1.00      | 50            | $0.02         | $0.02         | 1                 |
-| JLC PCB         | Packaging              | $0.71      | 50            | $0.01         | $0.01         | 1                 |
-| JLC Assembly    | Setup fee              | $25.00     | 50            | $0.50         | $0.50         | 1                 |
-| JLC Assembly    | Components (passive)   | $9.78      | 50            | $0.20         | $0.20         | 1                 |
-| JLC Assembly    | Extended component fee | $30.00     | 50            | $0.60         | $0.60         | 1                 |
-| JLC Assembly    | Assembly               | $10.12     | 50            | $0.20         | $0.20         | 1                 |
-| JLC Assembly    | Pckaging fee           | $0.47      | 50            | $0.01         | $0.01         | 1                 |
-| JLC Parts       | Primary components     | $81.65     | 50            | $1.63         | $1.63         | 1                 |
-| Shipping        | Shipping               | $48.49     | 50            | $0.97         | $0.97         | 1                 |
-| Tariffs & taxes | Customs                | $133.58    | 50            | $2.67         | $2.67         | 1                 |
-| Tariffs & taxes | State sales tax        | $20.00     | 50            | $0.40         | $0.40         | 1                 |
-
-### Final costs
-| Project total cost | Per unit total cost | Quantity | Adjusted total | Adjusted per unit cost |
-| ------------------ | ------------------- | -------- | -------------- | ---------------------- |
-| $431.00            | $8.62               | 50       | $431.00        | $8.62                  |
-
-### Cost by vendor
-<img width="727" height="449" alt="chart (5)" src="https://github.com/user-attachments/assets/339ea21a-02ee-440d-baa3-8cc222f8c7ec" />
-
-### Cost by item
-<img width="727" height="449" alt="chart (6)" src="https://github.com/user-attachments/assets/5d48941a-c570-49a0-b5ee-af6a720563e7" />
