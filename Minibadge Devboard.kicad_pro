@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.5,
+          "height": 1.7,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|175625000|128715000|edb556cc-4fce-45c5-a363-2e056b7d1e44|f8a7108d-8078-49cf-ab7f-aa313d7c2322",
-          ""
-        ],
-        [
-          "courtyards_overlap|185055000|128715000|2f2c8572-214e-411c-b47b-25cdf08e2db7|f8a7108d-8078-49cf-ab7f-aa313d7c2322",
-          ""
-        ],
-        [
-          "starved_thermal|178016000|106000000|e8c5e7bd-6be1-4d05-931c-a30c60ff3ffb|45310254-960c-4f06-bbaa-1658e95d0690|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -81,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -115,7 +102,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -131,7 +118,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -525,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Minibadge Devboard.step",
+      "step": "Footprint/Minibadge Devboard.step",
       "svg": "",
       "vrml": ""
     },
@@ -717,7 +704,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/me/Documents/GitHub/Minibadge-Devboard/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
