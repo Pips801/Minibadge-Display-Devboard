@@ -6,11 +6,11 @@ This board provides everything your custom Minibadge display will need, includin
 <img height="300" alt="image" src="https://github.com/user-attachments/assets/1c8e9991-1674-4dec-916b-945449384d05" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/d3120153-20b2-4f65-b784-882e05701e09" />
 
 ## Datasheets
-* Voltage regulators - TPS2121 - https://www.ti.com/lit/ds/symlink/tps2121.pdf
+* Voltage regulators - AP7361C-33E - https://www.diodes.com/assets/Datasheets/AP7361C.pdf
 * Battery Management System - BQ21040 - https://www.ti.com/lit/ds/symlink/bq21040.pdf
-* Clock Generator - AP7361C-33E - https://www.diodes.com/assets/Datasheets/AP7361C.pdf
-* Clock Driver - 74HC4060 - https://assets.nexperia.com/documents/data-sheet/74HC_HCT4060.pdf
-* Powepath MUX - DRV8837C - 
+* Clock Generator - 74HC4060 - https://assets.nexperia.com/documents/data-sheet/74HC_HCT4060.pdf
+* Clock Driver - DRV8837C - https://www.ti.com/lit/ds/symlink/drv8837c.pdf
+* Powepath MUX - TPS2121 - https://www.ti.com/lit/ds/symlink/tps2121.pdf
 * Power PFET
 
 # Specifications
