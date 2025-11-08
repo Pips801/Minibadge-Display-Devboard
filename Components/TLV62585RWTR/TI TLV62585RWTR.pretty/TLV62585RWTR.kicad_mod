@@ -106,6 +106,17 @@
 		(layer "F.SilkS")
 		(uuid "bc71bfd3-835b-4f6e-92de-3c56b2bd53db")
 	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5ef0d800-39f7-481f-a805-6f1b9a0f9ab9")
+	)
 	(fp_line
 		(start -1.05 -1.05)
 		(end 1.05 -1.05)
