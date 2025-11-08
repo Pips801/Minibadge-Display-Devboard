@@ -9973,7 +9973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_KOHERelec_MDA5030"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -10000,7 +10000,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2847474"
 			(at 139.7 86.36 0)
 			(effects
 				(font
