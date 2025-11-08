@@ -3,18 +3,18 @@ A small PCB that allows you to create your own Minibadge displays!
 
 This board provides everything your custom Minibadge display will need, including LiPo battery charging/use and USB-C power. It can be attached board-to-board with your own PCB designs, or it can be wired up using push-in WAGO wire terminals to your existing displays.
 
-<img height="300" alt="image" src="https://github.com/user-attachments/assets/1c8e9991-1674-4dec-916b-945449384d05" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/d3120153-20b2-4f65-b784-882e05701e09" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/c2eb49ee-c9d9-45e6-97a8-a0418281feec" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/c30dee54-9d2b-4e41-8131-5ae0eadc6ca4" />
+
 
 ## Datasheets
-* Voltage regulators - AP7361C-33E - https://www.diodes.com/assets/Datasheets/AP7361C.pdf
-* Battery Management System - BQ21040 - https://www.ti.com/lit/ds/symlink/bq21040.pdf
-* Clock Generator - 74HC4060 - https://assets.nexperia.com/documents/data-sheet/74HC_HCT4060.pdf
-* Clock Driver - DRV8837C - https://www.ti.com/lit/ds/symlink/drv8837c.pdf
+* Voltage regulator - TLV62585RWT - https://www.ti.com/lit/ds/symlink/tlv62585.pdf
+* Battery management system - BQ21040 - https://www.ti.com/lit/ds/symlink/bq21040.pdf
+* Clock generator - 74HC4060 - https://assets.nexperia.com/documents/data-sheet/74HC_HCT4060.pdf
+* Clock driver - DRV8837C - https://www.ti.com/lit/ds/symlink/drv8837c.pdf
 * Powepath MUX - TPS2121 - https://www.ti.com/lit/ds/symlink/tps2121.pdf
-* Power PFET
 
 # Specifications
-* Provides your Minibadges battery or USB-C power, 3x 3.3v@1A, CLK, GND, and VBATT.
+* Provides your Minibadges battery or USB-C power, 3.3v@3A, CLK, GND, and VBATT.
 * Supports LiPo batteries, optionally with NTC temp sensors.
   * 2x LiPo batteries of matching composition, mAh, and charge state can be wired in parallel.
   * 800mA battery charging.
@@ -24,13 +24,12 @@ This board provides everything your custom Minibadge display will need, includin
 * Solderable jumper for disabling temp sensor and selecting CLK speed.
 
 # Limitations
-* Max power draw (USB-C): 5V@3A
-* Max battery charging current: 800mA
-* Max amperage per 3.3v regulator: 1A
-* Max minibadges per 3.3v regulator (estimated): 10
-* Max total minibadges (estimated): 30-40
-* CLK is powered by VREG1.
- * If you plan on having a lot of CLK current, do not connect minibadges 3.3v rail to 3.3v-1. Only connect them to 3.3v-2 and 3.3v-3.
+* Input (USB-C): 5V@3A
+* Input (Battery): 4.2V@3A
+* Battery charging: 4.2V@800mA
+* Output (3.3V): 3.3V@3A
+* Output (CLK): 3.3V@3A
+* Max total minibadges: 30-50
 
 R2 Update list
 * Better thermal management for voltage regulators under load.
@@ -42,6 +41,14 @@ R2 Update list
 * Updated silkscreen component markers.
 * Updated solder paste for stronger on/off switch mounting.
 
+R3 Update list
+* Larger castellated pads for better connection.
+* Addition of a second row of pads for pins.
+* Swap from 3x LDO regulators to 1x Buck regulator.
+* Decreased waste heat and better thermal management.
+* Shhrunk board height by 2.54mm.
+* Added technical limitations on silkscreen.
+
 # Designing a Minibadge display
 ### Setup
 * Import Minibadge footprints and symbols into KiCad.
@@ -50,7 +57,7 @@ R2 Update list
 ### Schematic
 * Create schematic with as many minibadges as you want.
 * Import the Devboard symbol and wire up CLK, GND, and SYS (VBATT/5V).
-* Wire up the minibadges 3.3v lines to evenly distribute the 3.3v load across the regulators.
+* Wire up the minibadges 3.3v lines.
 
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/5cee3f1c-dd95-44ab-9998-e44554d591dc" />
 
