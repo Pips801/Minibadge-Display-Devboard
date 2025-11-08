@@ -6,4 +6,5 @@
   (lib (name "XDMK-12C01-25")(type "KiCad")(uri "${KIPRJMOD}/Components/XDMK-12C01-25/XDMK-12C01-25.pretty")(options "")(descr ""))
   (lib (name "WAGO 2059-303")(type "KiCad")(uri "${KIPRJMOD}/Components/WAGO 2059-303")(options "")(descr ""))
   (lib (name "WAGO 2060-453")(type "KiCad")(uri "${KIPRJMOD}/Components/WAGO 2060-453")(options "")(descr ""))
+  (lib (name "TI TLV62585RWTR")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV62585RWTR/TI TLV62585RWTR.pretty")(options "")(descr ""))
 )

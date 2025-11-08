@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Castellated pins")(type "KiCad")(uri "${KIPRJMOD}/Components/Castellated pins/Castellated pins.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2121")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS2121/TPS2121.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV62585RWTR")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV62585RWTR/TLV62585RWTR.kicad_sym")(options "")(descr ""))
 )
