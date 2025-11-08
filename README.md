@@ -32,6 +32,8 @@ This board provides everything your custom Minibadge display will need, includin
 * Output (SYS): Input voltage@amperage (whichever is higher)
 * Max total minibadges: 30-50
 
+# Revisions
+
 R2 Update list
 * Better thermal management for voltage regulators under load.
 * Updated PMIC ORing power path chip, replacing dual ORing diodes.
