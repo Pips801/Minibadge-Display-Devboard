@@ -47,7 +47,7 @@ R3 Update list
 * Addition of a second row of pads for pins.
 * Swap from 3x LDO regulators to 1x Buck regulator.
 * Decreased waste heat and better thermal management.
-* Shhrunk board height by 2.54mm.
+* Shrunk board height by 2.54mm.
 * Added technical limitations on silkscreen.
 
 # Designing a Minibadge display
