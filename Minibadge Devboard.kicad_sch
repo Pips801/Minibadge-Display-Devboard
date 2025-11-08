@@ -6896,7 +6896,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22807"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -9062,7 +9062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a923e06-f4eb-4336-9522-a3e8bd0f7c54")
-		(property "Reference" "U1"
+		(property "Reference" "BUCK1"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -9147,7 +9147,7 @@
 		(instances
 			(project ""
 				(path "/5e8d5e65-6836-49cf-87c9-8c3c5b8fcf7b"
-					(reference "U1")
+					(reference "BUCK1")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9778,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C4216"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -11779,7 +11779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "45uF"
+		(property "Value" "47uF"
 			(at 139.7 90.1762 0)
 			(effects
 				(font
@@ -11815,7 +11815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C96123"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -13419,7 +13419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "47uF"
 			(at 107.95 90.1762 0)
 			(effects
 				(font
@@ -13455,7 +13455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C96123"
 			(at 105.41 88.9 0)
 			(effects
 				(font
