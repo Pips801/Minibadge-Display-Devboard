@@ -999,7 +999,7 @@
 		(path "/fe736a31-3e4f-4842-9ddb-67c51a28d07e")
 		(sheetname "/")
 		(sheetfile "Minibadge Devboard.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at -0.0385 3.557 0)
 			(unlocked yes)
@@ -3459,7 +3459,7 @@
 		(path "/26c017dc-6fce-4e0a-9ed4-8f416451e250")
 		(sheetname "/")
 		(sheetfile "Minibadge Devboard.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at -0.0385 3.557 0)
 			(unlocked yes)
@@ -9509,7 +9509,7 @@
 		(path "/7d2384ff-67bb-4b55-a476-bd63387809a9")
 		(sheetname "/")
 		(sheetfile "Minibadge Devboard.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at -0.0385 3.557 0)
 			(unlocked yes)
