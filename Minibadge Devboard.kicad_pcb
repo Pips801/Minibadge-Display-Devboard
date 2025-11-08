@@ -5751,6 +5751,7 @@
 		(property "Reference" "D3"
 			(at -0.1905 2.0955 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1491c731-3dc5-4d70-aa71-952ac549a56e")
 			(effects
 				(font
@@ -7368,6 +7369,7 @@
 		(property "Reference" "D2"
 			(at 2.7685 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b8f98954-3fdb-4d09-a98b-e8d5fd7bec65")
 			(effects
 				(font
@@ -19781,6 +19783,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CHARGE"
+		(at 112.776 38.862 0)
+		(layer "F.SilkS")
+		(uuid "0bf4dde0-faeb-4fe3-a841-aca4c185d3a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "B-"
 		(at 110.363 77.343 0)
 		(layer "F.SilkS" knockout)
@@ -19815,6 +19828,17 @@
 				(thickness 0.2)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "PWR"
+		(at 107.816487 52.056446 0)
+		(layer "F.SilkS")
+		(uuid "58eb930e-f351-48ae-b3cb-6885f39b95f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "CLK"
