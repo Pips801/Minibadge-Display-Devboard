@@ -29,6 +29,7 @@ This board provides everything your custom Minibadge display will need, includin
 * Battery charging: 4.2V@800mA
 * Output (3.3V): 3.3V@3A
 * Output (CLK): 3.3V@3A
+* Output (SYS): Input voltage@amperage (whichever is higher)
 * Max total minibadges: 30-50
 
 R2 Update list
