@@ -3109,7 +3109,7 @@
 			(net 5 "-BATT")
 			(pinfunction "1")
 			(pintype "bidirectional")
-			(uuid "21df7524-a0f1-4175-aa8d-87ad70f295bf")
+			(uuid "382f31ef-cbb0-43f1-aa06-4e1b86d60746")
 		)
 		(pad "2" smd rect
 			(at -2.825 0 180)
@@ -3127,7 +3127,7 @@
 			(net 9 "NTC")
 			(pinfunction "2")
 			(pintype "bidirectional")
-			(uuid "b8b979e9-2c22-4069-9ddc-0c424d7549e3")
+			(uuid "49847d60-424b-4607-b9cc-ae8b51ee8f68")
 		)
 		(pad "3" smd rect
 			(at -2.825 3 180)
@@ -3145,7 +3145,7 @@
 			(net 3 "+BATT")
 			(pinfunction "3")
 			(pintype "bidirectional")
-			(uuid "1afa1eed-f063-47ac-bf83-e041d0b36a98")
+			(uuid "5f8a6439-faba-4f3e-a652-25afe68bd654")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Components/WAGO 2059-303/2059-303_998-403.stp"
@@ -9214,7 +9214,7 @@
 			(remove_unused_layers no)
 			(net 16 "GND")
 			(pintype "input")
-			(uuid "f16a87e3-2ec7-49f4-943b-a5ebaa4e1d4b")
+			(uuid "6bb42db1-10b5-48b2-bc58-668fdf07d947")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Components/SK12D07VG3-T/SK12D07VG4--3DModel-STEP-269445.STEP"
@@ -10390,7 +10390,7 @@
 			(net 7 "SYS")
 			(pinfunction "1")
 			(pintype "bidirectional")
-			(uuid "c0e8bada-ba43-4982-8d71-a0139fca17fa")
+			(uuid "bcfe7f2b-34bc-4a8c-ac0f-b9dbaa698220")
 		)
 		(pad "2" smd rect
 			(at -2.825 0 180)
@@ -10408,7 +10408,7 @@
 			(net 10 "CLK")
 			(pinfunction "2")
 			(pintype "bidirectional")
-			(uuid "dfc47e1e-32ee-4bd7-b594-3c39a9e8abef")
+			(uuid "40aa65d0-f172-431b-ba8c-2ceff0187bcc")
 		)
 		(pad "3" smd rect
 			(at -2.825 3 180)
@@ -10426,7 +10426,7 @@
 			(net 16 "GND")
 			(pinfunction "3")
 			(pintype "bidirectional")
-			(uuid "b3075d72-2713-4562-9f46-d34c178ed45e")
+			(uuid "7816f832-6a65-4b97-8481-c0d651150399")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Components/WAGO 2059-303/2059-303_998-403.stp"
@@ -11192,7 +11192,7 @@
 			(net 37 "+3.3V")
 			(pinfunction "1")
 			(pintype "bidirectional")
-			(uuid "56089a33-56e9-4be5-bcaa-a1ae912f636a")
+			(uuid "bb447f76-4659-45b5-aeed-375999bce4ee")
 		)
 		(pad "2" smd rect
 			(at -2.825 0 180)
@@ -11210,7 +11210,7 @@
 			(net 37 "+3.3V")
 			(pinfunction "2")
 			(pintype "bidirectional")
-			(uuid "b7d45c4f-33c4-40f5-87e7-950d437c575f")
+			(uuid "32178f41-9fe2-439b-9a40-96d461b745d9")
 		)
 		(pad "3" smd rect
 			(at -2.825 3 180)
@@ -11228,7 +11228,7 @@
 			(net 37 "+3.3V")
 			(pinfunction "3")
 			(pintype "bidirectional")
-			(uuid "585983fd-edf0-421d-9959-f7ef891f6cfd")
+			(uuid "688840c1-c5d5-44eb-966e-0510077b5569")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Components/WAGO 2059-303/2059-303_998-403.stp"
